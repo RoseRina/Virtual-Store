@@ -114,7 +114,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "Pengalaman berbelanja yang sangat memuaskan. Produk berkualitas dan pengiriman cepat. Akan berbelanja lagi di sini!"
+                &quot;Pengalaman berbelanja yang sangat memuaskan. Produk berkualitas dan pengiriman cepat. Akan berbelanja lagi di sini!&quot;
               </p>
             </div>
             
@@ -135,7 +135,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "Produk yang saya terima sesuai dengan deskripsi. Kualitasnya sangat bagus dan harganya bersaing. Layanan pelanggan juga responsif."
+                &quot;Produk yang saya terima sesuai dengan deskripsi. Kualitasnya sangat bagus dan harganya bersaing. Layanan pelanggan juga responsif.&quot;
               </p>
             </div>
             
@@ -159,7 +159,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "Proses pembelian yang mudah dan cepat. Pengiriman tepat waktu. Ada sedikit masalah pada kemasan, tapi customer service sangat membantu."
+                &quot;Proses pembelian yang mudah dan cepat. Pengiriman tepat waktu. Ada sedikit masalah pada kemasan, tapi customer service sangat membantu.&quot;
               </p>
             </div>
           </div>

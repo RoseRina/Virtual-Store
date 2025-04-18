@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ProductFormData } from '@/types/product';
 
 export default function AddProduct() {
@@ -204,11 +205,12 @@ export default function AddProduct() {
                 required
               />
               {imagePreview && (
-                <div className="mt-2">
-                  <img 
+                <div className="mt-2 relative h-32 w-full">
+                  <Image 
                     src={imagePreview} 
                     alt="Preview" 
-                    className="h-32 object-contain rounded-md border border-gray-200"
+                    className="object-contain rounded-md border border-gray-200"
+                    fill
                   />
                 </div>
               )}
